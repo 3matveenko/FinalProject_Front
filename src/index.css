@@ -1,0 +1,243 @@
+
+/* || UTILITY CLASSES */
+.errmsg {
+  color: firebrick;
+}
+
+.color {
+  transition-property: background-color;
+  transition-duration: 3s;
+
+
+}
+/* || GENERAL STYLES */
+
+body {
+  font: 1.5rem 'Nunito', sans-serif;;
+
+  background: linear-gradient(#f5f6fc,#1976d2);
+  color: #030000;
+}
+
+input, button {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  
+
+}
+
+section {
+  width: min(100%, 500px);
+}
+
+
+/* || LOGIN */
+
+.login form {
+ 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  margin-top: 7rem;
+ width: 500px;
+
+}
+
+.login input, .login button, .login label{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  border-radius: 15px;
+  width: 100%;
+  
+}
+.button_def {
+border: none;
+ background-color: #1976d2;
+  
+}
+.autorizeLink{
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1rem;
+}
+.menu button, .menu label{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  border-radius: 15px;
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.menu{
+   
+  display: flex;
+  margin-left: 150px;
+ 
+  flex-flow: column nowrap;
+  gap: 2rem;
+  margin-top: 7rem;
+ width: 500px;
+
+}
+
+.display_flex{
+  display: flex;
+}
+.order{
+  margin-top: 8rem;
+  margin-left: 400px;
+  width: 50%;
+  color: #030000;
+ 
+}
+.order_table{
+  border: 5px;
+  color:#030000;
+  border-color: black;
+  width: 40%;
+
+}
+.sum, .sum button{
+  margin-top: 1rem;
+  margin-left: rem;
+  border-radius: 15px;
+}
+.username{
+
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.navbar{
+  background: linear-gradient(#bd55187e,#7a3c09);
+}
+.delete_order{
+  background-color: #df1f18;
+  border: #df1f18;
+  margin-left: 2rem;
+}
+.Button_logout{
+  background: none;
+  border: none;
+  color: #4d2304;
+}
+.list_orders{
+  margin-top: 4rem;
+  margin-left: 5rem;
+ width: 70rem;
+}
+.display_flex{
+  display: flex;
+}
+.details_order{
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 8rem;
+
+}
+.chart{
+  background-color: #fff;
+  height: 600px;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+.date_picker{
+  border-radius: 15px;
+  border: 1px #0c8af8 solid;
+  padding: 4px 12px;
+  background-color: white;
+  height: 40px;
+  box-shadow: 0 0 2px #0074d9;
+}
+.date_picker:focus {
+  outline: none;
+  border: 1px solid #0c8af8;
+  box-shadow: 0 0 10px 2px #0074d9;
+}
+.date_d{
+  margin-top: 2rem;
+  display: flex;
+  width: 600px;
+  justify-content:space-between; 
+}
+
+.select_date{
+  border-radius: 15px;
+  background-color: #1976d2;
+  border: none;
+  height: 40px;
+
+}
+.username2{
+
+  margin-top: 2rem;
+  margin-left: 16rem;
+}
+.tablerem{
+  
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width: 41rem;
+}
+.modal{
+  background-color: #2073df;
+  text-align: center;
+  flex-direction: column;
+  color: black;
+  border-radius: 15px;
+}
+.selectmod{
+  border-radius: 15px;
+  width: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px #1a2fec solid;
+  padding: 4px 12px;
+  background-color: white;
+  height: 40px;
+  box-shadow: 0 0 2px #0074d9;
+}
+.item_list{
+  width: 90%;
+  margin-top: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  margin-right: -50%;
+}
+.all_lists{
+  width: 90%;
+  margin-top: 3rem;
+
+  top: 50%;
+  margin-left: 5%;
+
+}
+.table_modal{
+  margin-top: 1rem;
+  border-spacing: 15px 11px;
+  width: 300px;
+}
+.delete_button{
+  border-radius: 15px;
+  background-color: rgb(228, 25, 18);
+  border: none;
+  height: 40px;
+
+}
+.buttonlogin{
+  background-color: #ffffff;
+}
+.link{
+  color: #fff;
+}
