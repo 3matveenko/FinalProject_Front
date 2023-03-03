@@ -14,21 +14,14 @@ import Paper from '@mui/material/Paper';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { useState, useEffect } from "react";
+import moment from 'moment'
 
 
 
 
   const ListOrders = () => {
   let [orders, setOrders] =  useState([])
-  let date
-        let year = new Date().getFullYear()
-        let month = new Date().getMonth()+1
-        let day  = new Date().getDate()
-        if(month<10){
-        date = year+'-'+0+month+'-'+0+day
-      }else{
-        date = year+'-'+month+'-'+day
-      }
+  const date =  moment().format('YYYY-MM-DD')
       const token = localStorage.getItem('token')
       const data = { date };
       const requestOptions = {

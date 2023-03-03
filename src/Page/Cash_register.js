@@ -4,6 +4,7 @@ import { useState } from "react";
 import CloseButton from 'react-bootstrap/CloseButton';
 import { v1 as uuidv1 } from 'uuid';
 import NavCashier from '../components/NavCashier'
+import moment from "moment";
 
 
 
@@ -11,15 +12,7 @@ import NavCashier from '../components/NavCashier'
             
 
 const CashRegister = () => {
-  let date
-  let year = new Date().getFullYear()
-  let month = new Date().getMonth()+1
-  let day  = new Date().getDate()
-  if(month<10){
-  date = year+'-'+0+month+'-'+0+day
-}else{
-date = year+'-'+month+'-'+day
-}
+  const date =  moment().format('YYYY-MM-DD')
             let [itemsMenu, setitemsMenu] =  useState([])
 
             const username = localStorage.getItem('username')
